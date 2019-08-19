@@ -39,3 +39,4 @@ var mapType = new google.maps.StyledMapType(stylez, {
 });
 map.mapTypes.set('gMap', mapType);
 map.setMapTypeId('gMap');
+

@@ -384,6 +384,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
     <!-- ***** Footer Area End ***** -->
 
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('googleMap'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
@@ -395,7 +404,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Active js -->
     <script src="js/active.js"></script>
     <!-- Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwuyLRa1uKNtbgx6xAJVmWy-zADgegA2s"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlpPQmT4GdlPjn-6yBXyU-51rYb5_nsps&callback=initMap"></script>
     <script src="js/map-active.js"></script>
 
 </body>
