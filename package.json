@@ -1,0 +1,16 @@
+{
+  "name": "angelichealthcare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://adedamolagig.github.io/angelichealthcare",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
